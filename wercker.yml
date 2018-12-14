@@ -44,7 +44,7 @@ push-to-releases:
         password: $REGISTRY_PASSWORD
         repository: iad.ocir.io/gse00014510/handson-011/cowweb
         tag: v1.0
-        ports: 8080
+        ports: 9999
         cmd: java -jar /pipeline/source/build/libs/cowweb-1.0.jar
 
 deploy-to-cluster:
